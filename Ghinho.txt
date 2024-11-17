@@ -1,0 +1,10 @@
+- Các trang để tiếng việt ở bên quản trị , tiếng anh ở bên người dùng
+- Không có footer quản trị
+- Trang detail.php gồm detail1 và detail2 : hiển thị chi tiết sản phẩm
+- Trang index_home.php gồm main1,2,3,4 : hiển thị trang chủ
+- Trang index_news.php gồm news1,2,3 : dùng để hiển thị trang tin tức
+- Trang news_detail.php gồm news1,2 và php riêng : dùng để hiện chi tiết tin tức
+
+- Code liên kết tới các trang : detail.php?masp=<?php echo $row["masp"] ?> (ví dụ khi muốn chạy tới chi tiết sản phẩm)
+
+- Các trang riêng lẻ all,cat,contact
